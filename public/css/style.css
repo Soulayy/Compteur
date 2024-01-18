@@ -1,0 +1,45 @@
+body {
+    background-image: url(./../img/9f976266def3a52dca61a47f07ca11dd.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top {
+    height: 300px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    height: 450px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 80%;
+    width: 90%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.number {
+    height: 90%;
+    width: 50%;
+    background-color: pink;
+    gap: 5px;
+}
