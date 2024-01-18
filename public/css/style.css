@@ -1,5 +1,5 @@
 body {
-    background-image: url(./../img/9f976266def3a52dca61a47f07ca11dd.png);
+    background-image: url(./../img/JEdnVm.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -8,20 +8,10 @@ body {
     align-items: center;
     flex-direction: column;
 }
-.top {
-    height: 300px;
-    width: 100%;
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .container {
-    height: 450px;
+    height: 900px;
     width: 100%;
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +20,6 @@ body {
 .box {
     height: 80%;
     width: 90%;
-    background-color: green;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,6 +29,116 @@ body {
 .number {
     height: 90%;
     width: 50%;
-    background-color: pink;
     gap: 5px;
+}
+.number1 {
+    height: 90%;
+    width: 50%;
+    gap: 5px;
+}
+
+.number2 {
+    height: 90%;
+    width: 50%;
+    gap: 5px;
+}
+
+.img{
+    height: 40%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    height: 40%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2{
+    height: 40%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    width: 30%;
+    height: 65%;
+}
+.img1 img {
+    width: 30%;
+    height: 60%;
+}
+.img2 img {
+    width: 40%;
+    height: 80%;
+}
+
+.compteur {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.compteur #counter{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 80px;
+}
+.compteur1 {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.compteur1 #counter1{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 80px;
+}
+.compteur2 {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+.compteur2 #counter2{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 80px;
+}
+.text {
+    height: 30%;
+    width: 100%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
